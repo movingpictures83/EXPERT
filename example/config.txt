@@ -1,0 +1,2 @@
+Prefix plugins/EXPERT/example/
+Plugin EXPERT inputfile parameters.txt outputfile output.txt
