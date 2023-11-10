@@ -24,7 +24,7 @@ class EXPERTPlugin:
     kind = self.parameters["kind"]
     outfile = open(outputfile, 'w')
     outfile.write("cache size "+str(n))
-    if (kind == "EexpertLearning"):
+    if (kind == "ExpertLearning"):
        expert = ExpertLearning.ExpertLearning(n)
     else:
        expert = ExpertLearning_v2.ExpertLearning_v2(n)
